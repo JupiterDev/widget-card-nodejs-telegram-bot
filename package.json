@@ -8,7 +8,7 @@
     "dev": "nodemon ./src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "JupiterDev",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^1.19.1"

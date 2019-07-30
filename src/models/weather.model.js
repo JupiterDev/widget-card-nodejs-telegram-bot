@@ -1,16 +1,35 @@
 const mongoose = require("mongoose");
-const schema = mongoose.Schema;
+const Schema = mongoose.Schema;
 
 const weatcherSchema = new Schema({
   city: {
     type: String,
     required: true
   },
-  degrees: {},
-  description: {}, //облачно, солнечно, ...
-  precip: {}, // осадки в процентах 0 10 20
-  wind: {}, //ветер
-  humidity: {} //влажность в процентах
+  degrees: {
+    type: Number,
+    required: true
+  },
+  description: {
+    //облачно, солнечно, ...
+    type: String,
+    required: true
+  },
+  precip: {
+    // осадки в процентах 0 10 20
+    type: Number,
+    required: true
+  },
+  wind: {
+    //ветер
+    type: Number,
+    required: true
+  },
+  humidity: {
+    //влажность в процентах
+    type: Number,
+    required: true
+  }
 });
 
 mongoose.model("weather", weatcherSchema);

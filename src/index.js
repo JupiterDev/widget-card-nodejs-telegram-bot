@@ -6,6 +6,7 @@ const config = require("./config");
 const helper = require("./helpers");
 const keyboard = require("./keyboard");
 const buttons = require("./keyboard-buttons");
+const database = require("../database.json");
 
 helper.logStart();
 
@@ -13,6 +14,14 @@ mongoose
   .connect(config.DB_URL)
   .then(() => console.log("MongoDB connected"))
   .catch(err => console.log(err));
+
+require("./models/weather.model");
+
+const Weather = mongoose.model("weather");
+
+// database.weather.forEach(w => new Weather(w).save());
+
+// ===========================================
 
 const bot = new telegramBot(config.TOKEN, {
   polling: true,
@@ -39,6 +48,10 @@ bot.on("message", msg => {
       bot.sendMessage(chatId, "Выберите период", {
         reply_markup: { keyboard: keyboard.weather }
       });
+      break;
+    case buttons.weather.today:
+      break;
+    case buttons.weather.week:
       break;
     case buttons.home.news:
       break;
