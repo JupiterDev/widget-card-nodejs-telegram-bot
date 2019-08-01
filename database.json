@@ -31,115 +31,233 @@
     },
     {
       "city": "Санкт-Петербург",
-      "degrees": 17,
-      "description": "облачно",
-      "precip": 20,
-      "wind": 2,
-      "humidity": 38
+      "metcast": {
+        "current_time": 1564499904322,
+        "degrees": 17,
+        "description": "облачно",
+        "precip": 20,
+        "wind": 2,
+        "humidity": 38
+      },
+      "history": []
     },
     {
       "city": "Новосибирск",
-      "degrees": 16,
-      "description": "дождь",
-      "precip": 0,
-      "wind": 3,
-      "humidity": 56
+      "metcast": {
+        "current_time": 1564499904322,
+        "degrees": 16,
+        "description": "дождь",
+        "precip": 0,
+        "wind": 3,
+        "humidity": 56
+      },
+      "history": []
     },
     {
       "city": "Екатеринбург",
-      "degrees": 22,
-      "description": "гроза",
-      "precip": 10,
-      "wind": 9,
-      "humidity": 72
+      "metcast": {
+        "current_time": 1564499904322,
+        "degrees": 22,
+        "description": "гроза",
+        "precip": 10,
+        "wind": 9,
+        "humidity": 72
+      },
+      "history": []
     },
     {
       "city": "Нижний Новгород",
-      "degrees": 21,
-      "description": "облачно",
-      "precip": 0,
-      "wind": 2,
-      "humidity": 46
+      "metcast": {
+        "current_time": 1564499904322,
+        "degrees": 21,
+        "description": "облачно",
+        "precip": 0,
+        "wind": 2,
+        "humidity": 46
+      },
+      "history": []
     },
     {
       "city": "Казань",
-      "degrees": 20,
-      "description": "небольшая облачность",
-      "precip": 30,
-      "wind": 3,
-      "humidity": 50
+      "metcast": {
+        "current_time": 1564499904322,
+        "degrees": 20,
+        "description": "небольшая облачность",
+        "precip": 30,
+        "wind": 3,
+        "humidity": 50
+      },
+      "history": []
     },
     {
       "city": "Челябинск",
-      "degrees": 23,
-      "description": "дождь",
-      "precip": 20,
-      "wind": 6,
-      "humidity": 51
+      "metcast": {
+        "current_time": 1564499904322,
+        "degrees": 23,
+        "description": "дождь",
+        "precip": 20,
+        "wind": 6,
+        "humidity": 51
+      },
+      "history": []
     },
     {
       "city": "Омск",
-      "degrees": 22,
-      "description": "облачно",
-      "precip": 10,
-      "wind": 5,
-      "humidity": 44
+      "metcast": {
+        "current_time": 1564499904322,
+        "degrees": 22,
+        "description": "облачно",
+        "precip": 10,
+        "wind": 5,
+        "humidity": 44
+      },
+      "history": []
     },
     {
       "city": "Самара",
-      "degrees": 19,
-      "description": "облачно",
-      "precip": 10,
-      "wind": 7,
-      "humidity": 42
+      "metcast": {
+        "current_time": 1564499904322,
+        "degrees": 19,
+        "description": "облачно",
+        "precip": 10,
+        "wind": 7,
+        "humidity": 42
+      },
+      "history": []
     },
     {
       "city": "Ростов-на-Дону",
-      "degrees": 26,
-      "description": "ясно",
-      "precip": 0,
-      "wind": 5,
-      "humidity": 28
+      "metcast": {
+        "current_time": 1564499904322,
+        "degrees": 26,
+        "description": "ясно",
+        "precip": 0,
+        "wind": 5,
+        "humidity": 28
+      },
+      "history": []
     },
     {
       "city": "Уфа",
-      "degrees": 18,
-      "description": "небольшая облачность",
-      "precip": 20,
-      "wind": 3,
-      "humidity": 37
+      "metcast": {
+        "current_time": 1564499904322,
+        "degrees": 18,
+        "description": "небольшая облачность",
+        "precip": 20,
+        "wind": 3,
+        "humidity": 37
+      },
+      "history": []
     },
     {
       "city": "Красноярск",
-      "degrees": 24,
-      "description": "ясно",
-      "precip": 0,
-      "wind": 2,
-      "humidity": 65
+      "metcast": {
+        "current_time": 1564499904322,
+        "degrees": 24,
+        "description": "ясно",
+        "precip": 0,
+        "wind": 2,
+        "humidity": 65
+      },
+      "history": []
     },
     {
       "city": "Пермь",
-      "degrees": 23,
-      "description": "облачно",
-      "precip": 20,
-      "wind": 1,
-      "humidity": 42
+      "metcast": {
+        "current_time": 1564499904322,
+        "degrees": 23,
+        "description": "облачно",
+        "precip": 20,
+        "wind": 1,
+        "humidity": 42
+      },
+      "history": []
     },
     {
       "city": "Воронеж",
-      "degrees": 20,
-      "description": "небольшая облачность",
-      "precip": 0,
-      "wind": 6,
-      "humidity": 23
+      "metcast": {
+        "current_time": 1564499904322,
+        "degrees": 20,
+        "description": "небольшая облачность",
+        "precip": 0,
+        "wind": 6,
+        "humidity": 23
+      },
+      "history": []
     },
     {
       "city": "Волгоград",
-      "degrees": 24,
-      "description": "ясно",
-      "precip": 0,
-      "wind": 5,
-      "humidity": 36
+      "metcast": {
+        "current_time": 1564499904322,
+        "degrees": 24,
+        "description": "ясно",
+        "precip": 0,
+        "wind": 5,
+        "humidity": 36
+      },
+      "history": []
+    }
+  ],
+  "city": [
+    {
+      "name": "Москва",
+      "linkId": "mow"
+    },
+    {
+      "name": "Санкт-Петербург",
+      "linkId": "led"
+    },
+    {
+      "name": "Новосибирск",
+      "linkId": "ovb"
+    },
+    {
+      "name": "Екатеринбург",
+      "linkId": "svx"
+    },
+    {
+      "name": "Нижний Новгород",
+      "linkId": "goj"
+    },
+    {
+      "name": "Казань",
+      "linkId": "kzn"
+    },
+    {
+      "name": "Челябинск",
+      "linkId": "cek"
+    },
+    {
+      "name": "Омск",
+      "linkId": "oms"
+    },
+    {
+      "name": "Самара",
+      "linkId": "kuf"
+    },
+    {
+      "name": "Ростов-на-Дону",
+      "linkId": "rov"
+    },
+    {
+      "name": "Уфа",
+      "linkId": "ufa"
+    },
+    {
+      "name": "Красноярск",
+      "linkId": "kja"
+    },
+    {
+      "name": "Пермь",
+      "linkId": "pee"
+    },
+    {
+      "name": "Воронеж",
+      "linkId": "voz"
+    },
+    {
+      "name": "Волгоград",
+      "linkId": "vog"
     }
   ]
 }

@@ -3,33 +3,33 @@ const Schema = mongoose.Schema;
 
 const weatcherSchema = new Schema({
   city: {
-    type: String,
-    required: true
+    type: String
   },
-  degrees: {
-    type: Number,
-    required: true
+  metcast: {
+    current_time: {
+      type: Number
+    },
+    degrees: {
+      type: Number
+    },
+    description: {
+      //облачно, солнечно, ...
+      type: String
+    },
+    precip: {
+      // осадки в процентах 0 10 20
+      type: Number
+    },
+    wind: {
+      //ветер
+      type: Number
+    },
+    humidity: {
+      //влажность в процентах
+      type: Number
+    }
   },
-  description: {
-    //облачно, солнечно, ...
-    type: String,
-    required: true
-  },
-  precip: {
-    // осадки в процентах 0 10 20
-    type: Number,
-    required: true
-  },
-  wind: {
-    //ветер
-    type: Number,
-    required: true
-  },
-  humidity: {
-    //влажность в процентах
-    type: Number,
-    required: true
-  }
+  history: []
 });
 
 mongoose.model("weather", weatcherSchema);
