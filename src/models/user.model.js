@@ -6,7 +6,11 @@ const userSchema = new Schema({
     type: Number,
     require: true
   },
-  city: {
+  cityId: {
+    type: String,
+    default: ""
+  },
+  cityName: {
     type: String,
     default: ""
   }

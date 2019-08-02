@@ -12,8 +12,12 @@ module.exports = {
     week: "Неделя"
   },
   news: {},
-  currency: {},
+  currency: {
+    today: "На сегодня",
+    week: "Динамика за неделю",
+    month: "Динамика за месяц"
+  },
   traffic: {},
-  settings: { city: "Указать город" },
+  settings: { city: "Указать город", currency: "Указать валюту" },
   back: "Назад"
 };

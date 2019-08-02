@@ -7,5 +7,9 @@ module.exports = {
     [keyb.home.settings]
   ],
   weather: [[keyb.weather.today, keyb.weather.week], [keyb.back]],
-  settings: [[keyb.settings.city], [keyb.back]]
+  currency: [
+    [keyb.currency.today, keyb.currency.week, keyb.currency.month],
+    [keyb.back]
+  ],
+  settings: [[keyb.settings.city, keyb.settings.currency], [keyb.back]]
 };
